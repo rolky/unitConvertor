@@ -1,0 +1,126 @@
+body{
+  margin: 0;
+  font-family: 'Inter';
+  text-align: center;
+}
+
+.container{
+  margin: 20px auto;
+  width: 500px;
+height: fit-content;
+/* border: 1px solid black ; */
+box-shadow: 5px  rgb(82, 83, 83);
+
+}
+
+.top-container{
+  margin: 0;
+  width: 100%;
+height: fit-content;
+background: #6943FF;
+padding: 20px 0;
+
+}
+
+.buttom-container{
+  margin-top: 0;
+  background: white;
+  width: 100%;
+  padding: 5px 0;
+  background: #F4F4F4;
+}
+
+h2{
+margin: 0;
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 20px;
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+
+}
+
+input{
+  margin: 20px;
+  box-sizing: border-box;
+width: 100px;
+height: 60px;
+background: #6943FF;
+border: 2px solid #B295FF;
+border-radius: 5px;
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 50px;
+text-align: center;
+color: #FFFFFF;
+outline: none;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button{
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  background: #FFFFFF;
+border: none;
+box-shadow: 5px  rgb(82, 83, 83);
+border-radius: 5px;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+color: #3D3D3D;
+
+}
+
+button:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+  
+  }
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+height: 90px;
+background: white;
+margin: 20px  auto;
+border: 1px solid white;
+border-radius: 5px;
+}
+
+.card-container{
+ align-self: center;
+
+}
+
+h6{
+  font-family: 'Inter';
+font-style:normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+color: #353535;
+margin: 0 0 10px 0;
+}
+
+
+
+span{
+  font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+color: #353535;
+
+}
